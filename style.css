@@ -1,0 +1,82 @@
+body{
+    background-color: #D8F4FD;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+
+.flag-pic{
+    width: 20px;
+}
+
+#trafics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.TraficCard{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    background-color: #71C5DF;
+justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.left-traficCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 35%;
+}
+
+.right-traficCard{
+    display: flex;
+    width: 60%;
+}
+
+.right-traficCard>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    margin: 0;
+    text-align: center;
+}
+
+input{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+}
+
+.text-input{
+
+}
+
+#addTrafic{
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    background-color: #359ABA;
+    border: none;
+    border-radius: 20px;
+}

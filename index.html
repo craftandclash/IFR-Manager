@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFR Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>IFR Manager</h1>
+    <main>
+    <div id="trafics">
+        <article class="TraficCard">
+            <div class="left-traficCard">
+                <input type="text" class="text-input">
+                <button><img class = "flag-pic" src="fr-flag.jpg"></button>
+                <button>Supprimer</button>
+            </div>
+
+            <div class="right-traficCard">
+                <div class="I-Checkbox-DIV">
+                    <h3>I</h3>
+                    <input type="checkbox" class="checkbox">
+                    <p>Initial clearence</p>
+                </div>
+
+                <div class="R-Checkbox-DIV">
+                    <h3>R</h3>
+                    <input type="checkbox" class="checkbox">
+                    <p>Taxi clearence</p>
+                </div>
+
+                <div class="T-Checkbox-DIV">
+                    <h3>T</h3>
+                    <input type="checkbox" class="checkbox">
+                    <p>Transferd</p>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <button id="addTrafic" onclick="addTrafic()">Ajouter un trafic</button>
+</body>
+
+<script src="script.js"></script>
+</main>
+</html>
